@@ -17,6 +17,15 @@ export class RecipeService {
         new Ingredient('Meat', 2),
         new Ingredient('Bread', 3)
       ]
+    ),
+    new Recipe(
+      "Beef Stake",
+      "This is delicious beef stake",
+      "https://www.maxpixel.net/static/photo/1x/Steak-Amigo-Beef-2863826.jpg",
+      [
+        new Ingredient('Meat', 2),
+        new Ingredient('Bread', 3)
+      ]
     )
   ];
 
