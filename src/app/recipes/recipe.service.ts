@@ -50,6 +50,11 @@ export class RecipeService {
     this.notifyChanges();
   }
 
+  setRecipes(recipes: Recipe[]) {
+    this.recipes = recipes;
+    this.notifyChanges();
+  }
+
   updateRecipe(index: number, newRecipe: Recipe) {
     this.recipes[index] = newRecipe;
     this.notifyChanges();
